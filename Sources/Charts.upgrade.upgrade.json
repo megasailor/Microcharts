@@ -1,0 +1,823 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "",
+    "targetDisplayName": ".NET 8.0"
+  },
+  "analysisStartTime": "2024-11-05T11:10:42.3197769Z",
+  "analysisEndTime": "2024-11-05T11:11:23.7023123Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 4,
+      "issues": 6,
+      "incidents": 29,
+      "effort": 29
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 23,
+        "Optional": 0,
+        "Potential": 6,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 3,
+        "Project": 6,
+        "Api": 20
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "Microcharts\\Microcharts.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 2,
+      "ruleInstances": [
+        {
+          "incidentId": "f371ad14-2c36-4ba0-9504-7222f3550fa0",
+          "ruleId": "NuGet.0003",
+          "projectPath": "Microcharts\\Microcharts.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.ValueTuple, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "System.ValueTuple, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "Microcharts\\Microcharts.csproj",
+            "snippet": "System.ValueTuple, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "System.ValueTuple, 4.5.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "System.ValueTuple 4.5.0"
+          }
+        },
+        {
+          "incidentId": "7e620667-ddbc-455f-bace-2840f7524316",
+          "ruleId": "Project.0002",
+          "projectPath": "Microcharts\\Microcharts.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: netstandard2.0\nNew: net8.0",
+              "protected": "Current: netstandard2.0\nNew: net8.0"
+            },
+            "kind": "File",
+            "path": "Microcharts\\Microcharts.csproj",
+            "snippet": "Current: netstandard2.0\nNew: net8.0",
+            "protectedSnippet": "Current: netstandard2.0\nNew: net8.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Microcharts.Droid\\Microcharts.Droid.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 3,
+      "ruleInstances": [
+        {
+          "incidentId": "7858dab7-a33d-4cb5-a56e-a40f97442e13",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Microcharts.Droid\\Microcharts.Droid.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "SkiaSharp.Views, 2.88.3\n\nRecommendation:\n\nNo supported version found",
+              "protected": "SkiaSharp.Views, 2.88.3\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "Microcharts.Droid\\Microcharts.Droid.csproj",
+            "snippet": "SkiaSharp.Views, 2.88.3\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "SkiaSharp.Views, 2.88.3\n\nRecommendation:\n\nNo supported version found",
+            "label": "SkiaSharp.Views 2.88.3"
+          }
+        },
+        {
+          "incidentId": "95e5bc4f-faec-45de-8a07-fab8a35d4d9d",
+          "ruleId": "Project.0001",
+          "projectPath": "Microcharts.Droid\\Microcharts.Droid.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Microcharts.Droid\\Microcharts.Droid.csproj"
+          }
+        },
+        {
+          "incidentId": "1cdf0a58-e4f7-4794-b8d8-782517340b66",
+          "ruleId": "Project.0002",
+          "projectPath": "Microcharts.Droid\\Microcharts.Droid.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: MonoAndroid,Version=v10.0\nNew: net8.0",
+              "protected": "Current: MonoAndroid,Version=v10.0\nNew: net8.0"
+            },
+            "kind": "File",
+            "path": "Microcharts.Droid\\Microcharts.Droid.csproj",
+            "snippet": "Current: MonoAndroid,Version=v10.0\nNew: net8.0",
+            "protectedSnippet": "Current: MonoAndroid,Version=v10.0\nNew: net8.0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "Microcharts.iOS\\Microcharts.iOS.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 17,
+      "ruleInstances": [
+        {
+          "incidentId": "d0253716-3fdf-4203-95e8-d526ab64a74d",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "SkiaSharp.Views, 2.88.3\n\nRecommendation:\n\nNo supported version found",
+              "protected": "SkiaSharp.Views, 2.88.3\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\Microcharts.iOS.csproj",
+            "snippet": "SkiaSharp.Views, 2.88.3\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "SkiaSharp.Views, 2.88.3\n\nRecommendation:\n\nNo supported version found",
+            "label": "SkiaSharp.Views 2.88.3"
+          }
+        },
+        {
+          "incidentId": "09b81e68-de2b-466c-a866-d57f54a65d26",
+          "ruleId": "Project.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Microcharts.iOS\\Microcharts.iOS.csproj"
+          }
+        },
+        {
+          "incidentId": "5d65b4db-b099-4445-b4bd-fbe97d883fd7",
+          "ruleId": "Project.0002",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: Xamarin.iOS,Version=v1.0\nNew: net8.0",
+              "protected": "Current: Xamarin.iOS,Version=v1.0\nNew: net8.0"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\Microcharts.iOS.csproj",
+            "snippet": "Current: Xamarin.iOS,Version=v1.0\nNew: net8.0",
+            "protectedSnippet": "Current: Xamarin.iOS,Version=v1.0\nNew: net8.0"
+          }
+        },
+        {
+          "incidentId": "f21bdcdf-2cce-4f8e-b84f-252707888848",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.BackgroundColor = UIColor.Clear;",
+              "protected": "P:UIKit.UIView.BackgroundColor"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "this.BackgroundColor = UIColor.Clear;",
+            "protectedSnippet": "P:UIKit.UIView.BackgroundColor",
+            "label": "P:UIKit.UIView.BackgroundColor",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/uikit.uiview.backgroundcolor",
+                "isCustom": false
+              }
+            ],
+            "line": 32,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "53d6bf5d-e824-4598-bc84-7a19c4869e2e",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Preserve",
+              "protected": "T:Foundation.PreserveAttribute"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "Preserve",
+            "protectedSnippet": "T:Foundation.PreserveAttribute",
+            "label": "T:Foundation.PreserveAttribute",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/foundation.preserveattribute",
+                "isCustom": false
+              }
+            ],
+            "line": 19,
+            "column": 9
+          }
+        },
+        {
+          "incidentId": "aaa56493-d083-427a-9324-ad8d83fe7ded",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Preserve",
+              "protected": "M:Foundation.PreserveAttribute.#ctor"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "Preserve",
+            "protectedSnippet": "M:Foundation.PreserveAttribute.#ctor",
+            "label": "M:Foundation.PreserveAttribute.#ctor",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/foundation.preserveattribute.preserveattribute",
+                "isCustom": false
+              }
+            ],
+            "line": 19,
+            "column": 9
+          }
+        },
+        {
+          "incidentId": "8b1e9184-9522-4a63-acb6-6053033340e6",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.BackgroundColor = UIColor.Clear;",
+              "protected": "T:UIKit.UIColor"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "this.BackgroundColor = UIColor.Clear;",
+            "protectedSnippet": "T:UIKit.UIColor",
+            "label": "T:UIKit.UIColor",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/uikit.uicolor",
+                "isCustom": false
+              }
+            ],
+            "line": 32,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "a59445b9-2bf6-48b0-9367-0184a156cd30",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Preserve",
+              "protected": "T:Foundation.PreserveAttribute"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "Preserve",
+            "protectedSnippet": "T:Foundation.PreserveAttribute",
+            "label": "T:Foundation.PreserveAttribute",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/foundation.preserveattribute",
+                "isCustom": false
+              }
+            ],
+            "line": 19,
+            "column": 9
+          }
+        },
+        {
+          "incidentId": "911b2494-b3fe-41a1-af7a-cdfbb59fe000",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Preserve",
+              "protected": "M:Foundation.PreserveAttribute.#ctor"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "Preserve",
+            "protectedSnippet": "M:Foundation.PreserveAttribute.#ctor",
+            "label": "M:Foundation.PreserveAttribute.#ctor",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/foundation.preserveattribute.preserveattribute",
+                "isCustom": false
+              }
+            ],
+            "line": 19,
+            "column": 9
+          }
+        },
+        {
+          "incidentId": "9b1dbd88-43fd-4ec9-8b4b-4a2e9ff36711",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.Bounds",
+              "protected": "T:CoreGraphics.CGRect"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "this.Bounds",
+            "protectedSnippet": "T:CoreGraphics.CGRect",
+            "label": "T:CoreGraphics.CGRect",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/coregraphics.cgrect",
+                "isCustom": false
+              }
+            ],
+            "line": 76,
+            "column": 69
+          }
+        },
+        {
+          "incidentId": "bba06912-4873-41d8-9d08-9cb66e18477f",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.BackgroundColor = UIColor.Clear;",
+              "protected": "T:UIKit.UIColor"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "this.BackgroundColor = UIColor.Clear;",
+            "protectedSnippet": "T:UIKit.UIColor",
+            "label": "T:UIKit.UIColor",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/uikit.uicolor",
+                "isCustom": false
+              }
+            ],
+            "line": 32,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "6691a149-03ec-4d62-9ccb-54467bc849f2",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.BackgroundColor = UIColor.Clear;",
+              "protected": "P:UIKit.UIColor.Clear"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "this.BackgroundColor = UIColor.Clear;",
+            "protectedSnippet": "P:UIKit.UIColor.Clear",
+            "label": "P:UIKit.UIColor.Clear",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/uikit.uicolor.clear",
+                "isCustom": false
+              }
+            ],
+            "line": 32,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c4d8d87c-2688-4347-817b-fc0327111346",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.BackgroundColor = UIColor.Clear;",
+              "protected": "T:UIKit.UIColor"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "this.BackgroundColor = UIColor.Clear;",
+            "protectedSnippet": "T:UIKit.UIColor",
+            "label": "T:UIKit.UIColor",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/uikit.uicolor",
+                "isCustom": false
+              }
+            ],
+            "line": 32,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "e9ecf5cd-4761-467c-9f4b-e586de35e1a3",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.SetNeedsDisplayInRect(this.Bounds)",
+              "protected": "M:UIKit.UIView.SetNeedsDisplayInRect(CoreGraphics.CGRect)"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "this.SetNeedsDisplayInRect(this.Bounds)",
+            "protectedSnippet": "M:UIKit.UIView.SetNeedsDisplayInRect(CoreGraphics.CGRect)",
+            "label": "M:UIKit.UIView.SetNeedsDisplayInRect(CoreGraphics.CGRect)",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/uikit.uiview.setneedsdisplayinrect",
+                "isCustom": false
+              }
+            ],
+            "line": 76,
+            "column": 42
+          }
+        },
+        {
+          "incidentId": "fb5ce110-04d3-434c-80d8-b64ab1eb411c",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "this.Bounds",
+              "protected": "P:UIKit.UIView.Bounds"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "this.Bounds",
+            "protectedSnippet": "P:UIKit.UIView.Bounds",
+            "label": "P:UIKit.UIView.Bounds",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/uikit.uiview.bounds",
+                "isCustom": false
+              }
+            ],
+            "line": 76,
+            "column": 69
+          }
+        },
+        {
+          "incidentId": "fcfc2975-c595-4793-a342-122f1c477a12",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Register(\u0022ChartView\u0022)",
+              "protected": "T:Foundation.RegisterAttribute"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "Register(\u0022ChartView\u0022)",
+            "protectedSnippet": "T:Foundation.RegisterAttribute",
+            "label": "T:Foundation.RegisterAttribute",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/foundation.registerattribute",
+                "isCustom": false
+              }
+            ],
+            "line": 9,
+            "column": 5
+          }
+        },
+        {
+          "incidentId": "31bee02e-d12c-4528-8620-92be6d9ea142",
+          "ruleId": "Api.0001",
+          "projectPath": "Microcharts.iOS\\Microcharts.iOS.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Register(\u0022ChartView\u0022)",
+              "protected": "M:Foundation.RegisterAttribute.#ctor(System.String)"
+            },
+            "kind": "File",
+            "path": "Microcharts.iOS\\ChartView.cs",
+            "snippet": "Register(\u0022ChartView\u0022)",
+            "protectedSnippet": "M:Foundation.RegisterAttribute.#ctor(System.String)",
+            "label": "M:Foundation.RegisterAttribute.#ctor(System.String)",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/foundation.registerattribute.registerattribute",
+                "isCustom": false
+              }
+            ],
+            "line": 9,
+            "column": 5
+          }
+        }
+      ]
+    },
+    {
+      "path": "Microcharts.Maui\\Microcharts.Maui.csproj",
+      "startingProject": true,
+      "issues": 2,
+      "storyPoints": 7,
+      "ruleInstances": [
+        {
+          "incidentId": "06cd4f2a-b7b1-48bb-9e62-57a83ba9dff9",
+          "ruleId": "Project.0002",
+          "projectPath": "Microcharts.Maui\\Microcharts.Maui.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current: net7.0-ios;net7.0-android;net7.0-maccatalyst;net7.0-windows10.0.19041\nNew: net8.0-windows",
+              "protected": "Current: net7.0-ios;net7.0-android;net7.0-maccatalyst;net7.0-windows10.0.19041\nNew: net8.0-windows"
+            },
+            "kind": "File",
+            "path": "Microcharts.Maui\\Microcharts.Maui.csproj",
+            "snippet": "Current: net7.0-ios;net7.0-android;net7.0-maccatalyst;net7.0-windows10.0.19041\nNew: net8.0-windows",
+            "protectedSnippet": "Current: net7.0-ios;net7.0-android;net7.0-maccatalyst;net7.0-windows10.0.19041\nNew: net8.0-windows"
+          }
+        },
+        {
+          "incidentId": "21d632a2-058f-4eff-a204-ff244cfb7a6e",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.Maui.Core, 8.0.40.",
+          "projectPath": "Microcharts.Maui\\Microcharts.Maui.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static MauiAppBuilder UseMicrocharts(this MauiAppBuilder builder)",
+              "protected": "T:Microsoft.Maui.Hosting.MauiAppBuilder"
+            },
+            "kind": "File",
+            "path": "Microcharts.Maui\\AppHostBuilderExtensions.cs",
+            "snippet": "public static MauiAppBuilder UseMicrocharts(this MauiAppBuilder builder)",
+            "protectedSnippet": "T:Microsoft.Maui.Hosting.MauiAppBuilder",
+            "label": "T:Microsoft.Maui.Hosting.MauiAppBuilder",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.maui.hosting.mauiappbuilder",
+                "isCustom": false
+              }
+            ],
+            "line": 7,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "cf6527f7-e87a-41d7-aa7c-3382078c1611",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.Maui.Controls.Core, 8.0.40.",
+          "projectPath": "Microcharts.Maui\\Microcharts.Maui.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "ChartProperty = BindableProperty.Create(nameof(Chart), typeof(Chart), typeof(ChartView), null, propertyChanged: OnChartChanged)",
+              "protected": "T:Microsoft.Maui.Controls.BindableProperty"
+            },
+            "kind": "File",
+            "path": "Microcharts.Maui\\ChartView.cs",
+            "snippet": "ChartProperty = BindableProperty.Create(nameof(Chart), typeof(Chart), typeof(ChartView), null, propertyChanged: OnChartChanged)",
+            "protectedSnippet": "T:Microsoft.Maui.Controls.BindableProperty",
+            "label": "T:Microsoft.Maui.Controls.BindableProperty",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty",
+                "isCustom": false
+              }
+            ],
+            "line": 22,
+            "column": 48
+          }
+        },
+        {
+          "incidentId": "96b3aaa7-f1cf-4681-9488-3193a5b950db",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.Maui.Controls.Core, 8.0.40.",
+          "projectPath": "Microcharts.Maui\\Microcharts.Maui.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return (Chart)GetValue(ChartProperty);",
+              "protected": "T:Microsoft.Maui.Controls.BindableProperty"
+            },
+            "kind": "File",
+            "path": "Microcharts.Maui\\ChartView.cs",
+            "snippet": "return (Chart)GetValue(ChartProperty);",
+            "protectedSnippet": "T:Microsoft.Maui.Controls.BindableProperty",
+            "label": "T:Microsoft.Maui.Controls.BindableProperty",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty",
+                "isCustom": false
+              }
+            ],
+            "line": 38,
+            "column": 18
+          }
+        },
+        {
+          "incidentId": "2f41065a-e8c6-4327-9ef7-b36368cc787f",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.Maui.Controls.Core, 8.0.40.",
+          "projectPath": "Microcharts.Maui\\Microcharts.Maui.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "SetValue(ChartProperty, value);",
+              "protected": "T:Microsoft.Maui.Controls.BindableProperty"
+            },
+            "kind": "File",
+            "path": "Microcharts.Maui\\ChartView.cs",
+            "snippet": "SetValue(ChartProperty, value);",
+            "protectedSnippet": "T:Microsoft.Maui.Controls.BindableProperty",
+            "label": "T:Microsoft.Maui.Controls.BindableProperty",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty",
+                "isCustom": false
+              }
+            ],
+            "line": 39,
+            "column": 18
+          }
+        },
+        {
+          "incidentId": "8f646727-89da-4e51-8b46-eb7e2b7e3898",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.Maui.Controls.Core, 8.0.40.",
+          "projectPath": "Microcharts.Maui\\Microcharts.Maui.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private static void OnChartChanged(BindableObject d, object oldValue, object value)",
+              "protected": "T:Microsoft.Maui.Controls.BindableObject"
+            },
+            "kind": "File",
+            "path": "Microcharts.Maui\\ChartView.cs",
+            "snippet": "private static void OnChartChanged(BindableObject d, object oldValue, object value)",
+            "protectedSnippet": "T:Microsoft.Maui.Controls.BindableObject",
+            "label": "T:Microsoft.Maui.Controls.BindableObject",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject",
+                "isCustom": false
+              }
+            ],
+            "line": 46,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "938f53a2-80f3-4557-b71a-35dff7b5c131",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.Maui.Core, 8.0.40.",
+          "projectPath": "Microcharts.Maui\\Microcharts.Maui.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static MauiAppBuilder UseMicrocharts(this MauiAppBuilder builder)",
+              "protected": "T:Microsoft.Maui.Hosting.MauiAppBuilder"
+            },
+            "kind": "File",
+            "path": "Microcharts.Maui\\AppHostBuilderExtensions.cs",
+            "snippet": "public static MauiAppBuilder UseMicrocharts(this MauiAppBuilder builder)",
+            "protectedSnippet": "T:Microsoft.Maui.Hosting.MauiAppBuilder",
+            "label": "T:Microsoft.Maui.Hosting.MauiAppBuilder",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://learn.microsoft.com/dotnet/api/microsoft.maui.hosting.mauiappbuilder",
+                "isCustom": false
+              }
+            ],
+            "line": 7,
+            "column": 8
+          }
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "description": "NuGet package functionality is included with framework reference.\n\nPackage needs to be removed.",
+      "label": "NuGet package functionality is included with framework reference",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in moderrn .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0001": {
+      "id": "NuGet.0001",
+      "description": "NuGet package is incompatible with selected target framework.\n\nPackage needs to be upgraded to a version supporting selected project target framework. If there no new package versions supporting new target framework, different package needs to be used and all code needs to be upgraded to new API.",
+      "label": "NuGet package is incompatible",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262529",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0001": {
+      "id": "Project.0001",
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "description": "API does not exist in the selected version of .NET. See breaking changes documentation for alternative or replacement functionality.",
+      "label": "API does not exist",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "description": "Some API that lived in older versions of .NET frameworks were moved to standalone NuGet packages that could be added to projects explicitly.",
+      "label": "API available in NuGet package",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
